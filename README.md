@@ -1,19 +1,37 @@
-# Abstract Class
+# Foobar
 
-## The Abstract class just defines the abstract method with concrete method
+Foobar is a Python library for dealing with word pluralization.
 
-### step 1 : import abstract class module
+## Installation
 
-### step 2 : create main class which name is Animal
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-### step 3 : create decorater which name is abstractmethod
+```bash
+pip install foobar
+```
 
-### step 4 : create two function which name is legs and output
+## Usage
 
-### step 5 : create two child class which name is Cow and Bat
+```python
+import foobar
 
-### step 6 : create function in both class
+# returns 'words'
+foobar.pluralize('word')
 
-### step 7 : create object of both class Cow and Bat
+# returns 'geese'
+foobar.pluralize('goose')
 
-### step 8 : call function using object
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
